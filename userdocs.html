@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FORM NAME</title>
+<link rel = "icon" href = "http://cs.furman.edu/~sngo/ChenKingNgo_term_project/imgsources/Bell-Tower-RGB.png" type = "image/x-icon">
+  <meta name="generator" content="Google Web Designer 15.2.1.0306">
+  <style id="gwd-text-style">
+    p {
+      font-family:'Trebuchet MS', sans-serif;
+      margin-left:2.5%;
+      margin-right:2.5%;
+    }
+    label {
+      font-family:'Trebuchet MS', sans-serif;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1em;
+      margin-top: 2em;
+      font-family: 'Trebuchet MS', sans-serif;"
+    }
+    h2 {
+      font-family: 'Trebuchet MS', sans-serif;"
+    } 
+    h3 {
+      font-family: 'Trebuchet MS', sans-serif;"
+    } 
+  </style>
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    body {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+    }
+    body * {
+      transform-style: preserve-3d;
+    }
+    footer {
+      text-align: center;
+      height:2em;
+      margin-top:2.5%;
+      bottom:0;
+      width:100%;   
+    }
+    footer p {
+      line-height:2em;
+      color:black;
+    }
+    #header img {
+      float: left;
+      width: 10%;
+      height: 10%;
+      margin-top:-2em;
+      margin-bottom:1em;
+      margin-left:1em;
+      margin-right:0em;
+    }
+    #header {
+      margin-bottom:2.5%;
+    }
+    #nav {
+      margin-bottom:1em;
+    }
+    #nav a {
+      padding: 24px 26px;
+    }
+    a {
+      font-family:'Trebuchet MS', sans-serif;
+    }
+    a:link {
+      color: #201547;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #582C83;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    ul {
+      list-style-type: none;
+    }
+  </style>
+</head>
+<body>
+<div id="header">
+    <img src="http://cs.furman.edu/~sngo/ChenKingNgo_term_project/imgsources/Diamond%20F-RGB.png" id="logo"/>
+    <h1>Furman Art Gallery</h1>
+    <div id="nav">
+      <p style="text-align:right; margin-right:1em;">
+        <a href="http://cs.furman.edu/~sngo/ChenKingNgo_term_project/homepage.html" rel="help">Index </a>
+	<a href="http://cs.furman.edu/~sngo/ChenKingNgo_term_project/userdocs.html" rel="help">User Documentation</a>
+      </p>
+    </div>
+    <hr style="color:#582C83; weight:2px" />  
+  </div>
+  
+  <div style="margin-left:5%">
+    <br />
+    <h2>User Documentation and Help</h2>
+    <p>
+      Confused? This page has all information on how to navigate, use, and interpret all pages on the Furman Art Gallery website. <br>
+      If you ever get lost, click 'Index' at the top right of the page to return to the home page, or 'User Documentation' to return here at any point. <br>
+      Click on any of the pages below to view instructions on how to fill out the forms or interpret its results.
+    </p>
+    <h2>
+      Table of Contents
+    </h2>
+    <b><a href="#forms">Forms</a></b>
+    <ul>
+      <li><a href="#artistInfo">Artist Information</a></li>
+      <li><a href="#collInfo">Collector Information</a></li>
+      <li><a href="#awInfo">Artwork Information</a></li>
+      <li><a href="#saleInv">Sale Invoice</a></li>
+      <li><a href="#mailList">Mailing List</a></li>
+    </ul>
+    <b><a href="#reports">Reports</a></b>
+    <ul>
+      <li><a href="#worksFSale">Works For Sale</a></li>
+      <li><a href="#saleWeek">Sales For Week</a></li>
+      <li><a href="#collSales">Individual Collector Sales Report</a></li>
+      <li><a href="#artistSales">Individual Artist Sales Report</a></li>
+      <li><a href="#collSumm">Collector Summary Report</a></li>
+      <li><a href="#heldOver6">Artwork Held Over 6 Months</a></li>
+      <li><a href="#showReport">Art Show Report</a></li>
+      <li><a href="#artistSumm">Active Artist Summary Report</a></li>
+    </ul>
+    <b><a href="#rq">Routine Queries</a></b>
+    <ul>
+      <li><a href="#artFSaleSearch">Art For Sale Search</a></li>
+      <li><a href="#awHist">Artwork History</a></li>
+    </ul>
+    
+    <div id="forms">
+      <h2>Forms</h2>
+    <div id="artistInfo">
+      <h3>
+        Artist Information
+      </h3>
+      <p>
+        This is a form to insert a new artist into the database. 
+        The required fields of Artist Last Name and Artist First Name are marked with the red star <span style="color:red">*</span>. 
+        Users can input all the information the form asks for and click on the "Insert New Artist" button to add a new artist. 
+        Two artists are not allow to have the same name. If a newly inserted artist has the same name as the existing artist in the database, 
+        the error "Insert Fail: Duplicate Entry" will display. 
+        If the error appear, just go back to the Artist Information Form to insert the artist again. 
+      </p>
+    </div>
+    <div id="collInfo">
+      <h3>
+        Collector Information
+      </h3>
+      <p>
+        This is a form to insert a new collector into the database. 
+        The required fields of Collector are Collector Last Name, Collector First Name, and Social Security Number 
+        where the Social Security Number is used as the identifier for the collector in the database. 
+        The buttom session after "If the collection is predominately by one artist..." is not required. 
+        If the user enters BOTH Artist Last Name and Artist First Name, the database will search for exisiting artist 
+        and link the existing artist information with the collector.  
+      </p>
+    </div>
+    <div id="awInfo">
+      <h3>
+        Artwork Information
+      </h3>
+      <p> 
+        This is the form to insert a new piece of artwork into the database. 
+        First, the user will be asked to search for artist by entering BOTH Artist Last Name and Artist First Name. 
+        The "search" button displays the result of the search. If the artist exisit, the message "Artist e.g. Sophie Ngo" exist!" 
+        If the user does not exist in the database, you can click on the button "Click here to insert a new artist" to insert a new artist and then 
+        ***(fix) go back to the artist search form again to make sure the artist exist in the database before inserting a new piece of artwork. 
+        Click on the button right below the message to be redirected to the Artwork Information Form. 
+        The requried fields are Artist Last Name, Artist First Name and Title. 
+        If the artwork is owned by someone other than the artist, the user is required to enter the "Owner Social Security Number", "Owner Last Name", "Owner First Name" to create a new collector. 
+      </p>
+    </div>
+    <div id="saleInv">
+      <h3>
+        Sale Invoice
+      </h3>
+      <p>
+        This is the form to insert a new sale invoice into the database. 
+        The required fields are "Title of Artwork", "Artist Last Name", "Artist First Name", "Buyer Last Name", and "Buyer First Name". 
+        The artwork title and artist information is used to identify the piece that is being sold. 
+        The owner information session is not required, if nothing is entered, the artwork is assumed to be owned by the artist. 
+        The buyer information session required "Buyer First Name" and "Buyer Last Name" to create a new buyer in the database. 
+        If the buyer does not exist, the message of "New Buyer (Buyer Name) inserted!" will display after clicking on the button. 
+        The Purchase Price session contains all required information for the sale invoice. 
+        Once the information is entered, user can click on the "Insert New Sale Invocie" button will display message for whether the new artwork is inserted into the database. 
+        **Restriction: The artwork can only to sold once, meaning if the artwork title and the artist information already exist in the Sale table, the message "Insert Fail: Duplicate Entry" will display. 
+        Otherwise, the artwork had not being sold before, the message "New Sale Invoice (invoice number) inserted!" will be displayed. 
+      </p>
+      </div>
+      <div id="MailList">
+        <h3>
+          Mailing List
+        </h3>
+        <p>
+          This is the form to insert new potential customer to the database. 
+          The required fields are "Last Name" and "First Name" to create new identification for the the customer. 
+          The information for potential customer can be repeated. 
+          If the preference session is filled, the database will search for artist and linked with the new potential customer. 
+          The artist information is not required if the user just want to enter their preferred style, type, or medium. 
+        </p>
+      </div>
+      <a href="#header" style="margin-right:1em">Top of Page</a>
+    </div>
+    <div id="reports">
+      <h2>Reports</h2>
+      <div id="worksFSale">
+        <h3>
+          Works For Sale
+        </h3>
+        <p>This page displays a list of all current works for sale in our database.<br>
+          It shows all of the work's information, such as Artist name, type, medium, style, who currently owns the artwork, and the work's asking price.<br>
+          It also displays the date the work was shown (if it was shown in the past) and the date the artwork was listed for sale.  </p>
+      </div>
+      <div id="saleWeek">
+        <h3>
+          Sales For Week
+        </h3>
+        <p>This report displays all sales that occured within a given week. <br>
+          To do this, enter the end date of the 7-day period you wish to get sales information about.<br>
+           For example, if you wanted sales information of sales occurring during the week of March 1, 2023 and March 7, 2023 enter March 7, 2023 for the week ending date.</p>
+      </div>
+      <div id="collSales">
+        <h3>
+          Individual Collector Sales Report
+        </h3>
+        <p>This report shows all artworks sold, artworks returned, and works for sale for a given collector after a given date. <br>
+          To do this, enter the SSN of the collector and the beginning date of the time period you wish to get information about. <br>
+          All relevant artwork with the date listed on the day of or after the given beginning date will be displayed. </p>
+      </div>
+      <div id="artistSales">
+        <h3>
+          Individual Artist Sales Report
+        </h3>
+        <p>This report shows all artworks sold, artworks returned, and works for sale for a given artist after a given date. <br>
+          To do this, enter the first and last name of the artist and the beginning date of the time period you wish to get information about. <br>
+          All relevant artwork with the date listed on the day of or after the given beginning date will be displayed. </p>
+      </div>
+      <div id="collSumm">
+        <h3>
+          Collector Summary Report
+        </h3>
+        <p>This page displays a list of all current collectors in our database.<br>
+          It shows all of the collector's current information, such as their name, address, phone number, total of sales last year, and total of sales year-to-date.<br>
+          It also displays the collector's preferred artist, medium, type, and style, if any. </p>
+      </div>
+      <div id="heldOver6">
+        <h3>
+          Artwork Held Over 6 Months
+        </h3>
+        <p>
+          This report simply shows all artwork for sale that has been listed in our database for 6 months or longer.<br>
+           The purpose of this report is so that the artist or collector who owns the artworks may be contacted to determine whether the works should be returned or remain for sale.</p>
+      </div>
+      <div id="showReport">
+        <h3>
+          Art Show Report
+        </h3>
+        <p>This report shows all information about a specific art show, such as its theme or featured artist. It also shows all artworks that have been exhibited in it. <br>
+        To choose a specific art show, enter the show's title. </p>
+      </div>
+      <div id="artistSumm">
+        <h3>
+          Active Artist Summary Report
+        </h3>
+        <p>This report shows all information about all active artists in our database: name, address, phone number, total of sales last year, and total of sales year-to-date.<br>
+          It also displays their preferred way of making art: type, medium, and style. </p>
+      </div>
+      <a href="#header" style="margin-right:1em">Top of Page</a>
+    </div>
+    <div id="rq">
+      <h2>Routine Queries</h2>
+      <div id="artFSaleSearch">
+        <h3>
+          Art For Sale Search
+        </h3>
+        <p>This tool is used when you wish to look for artwork to buy. <br>
+          Simply input any preferred traits about artwork you may be interested in, then click 'submit' to search through our database for artwork matching your criteria.<br>
+          If you wish to browse all artwork, click 'submit' with no input. </p>
+      </div>
+      <div id="awHist">
+        <h3>
+          Artwork History
+        </h3>
+        <p>This tool is used to analyze a specific artwork's history of transactions. Simply input the name of the artist and the title of the artwork to view its information and history.<br></p>
+      </div>
+      <a href="#header" style="margin-right:1em">Top of Page</a>
+    </div>
+  
+  </div>
+  
+  <footer>
+    <hr style="color:#201547; weight:5px;">
+    <p>
+      Sophie Ngo, Ting Chen, Hanna King
+    </p>
+  </footer>  
+</body>
+</html>
